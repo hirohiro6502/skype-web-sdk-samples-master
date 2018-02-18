@@ -16,7 +16,7 @@ var config ={
     loginurl : 'https://login.microsoftonline.com/common/oauth2/authorize?response_type=token',//Microsoft OAuth login url for AAD.Fixed
     
     //Action Required : Need to set your app's specific value. Please README.MD file and follow "Update config.js" section.
-    clientid : 'ef62800f-987b-4405-8bd8-1df05b4f591a',//client id created in Azure AD
+    clientid : 'cf03fe8a-a9df-4ebb-a901-7f4f6cddc019',//client id created in Azure AD
     replyurl : 'https://skypetest1.azurewebsites.net',//replyurl you set in Azure AD
-    appName : 'skypetest1'//Application Name registered in Azure AD
+    appName : 'AzureADforSkypeApp'//Application Name registered in Azure AD
 };
